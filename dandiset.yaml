@@ -5,7 +5,6 @@
 about:
 - identifier: UBERON:0013533
   name: Somatosensory area 2
-  schemaKey: Anatomy
 access:
 - contactPoint:
     schemaKey: ContactPoint
@@ -42,9 +41,9 @@ assetsSummary:
   - Units
   - SpatialSeries
   - ProcessingModule
-citation: Chowdhury, Raeed; Miller, Lee (2021) Macaque somatosensory area 2 spiking
-  activity during reaching with perturbations (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000127/draft
+citation: 'Chowdhury, Raeed; Miller, Lee (2021) Area2_Bump: macaque somatosensory
+  area 2 spiking activity during reaching with perturbations (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000127/draft'
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -88,11 +87,13 @@ id: DANDI:000127/draft
 identifier: DANDI:000127
 keywords:
 - Neural Latents Benchmark
+- NLB
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000127/versions/draft/assets/
-name: Macaque somatosensory area 2 spiking activity during reaching with perturbations
+name: 'Area2_Bump: macaque somatosensory area 2 spiking activity during reaching with
+  perturbations'
 protocol: []
 relatedResource:
 - identifier: 10.7554/eLife.48198
