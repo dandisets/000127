@@ -3,8 +3,9 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
 about:
-- identifier: http://purl.obolibrary.org/obo/UBERON_0013533
+- identifier: UBERON:0013533
   name: Somatosensory area 2
+  schemaKey: Anatomy
 access:
 - contactPoint:
     schemaKey: ContactPoint
