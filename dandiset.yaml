@@ -37,7 +37,8 @@ ethicsApproval: []
 id: DANDI:000127/draft
 identifier: DANDI:000127
 keywords: []
-license: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000127/versions/draft/assets/
 name: Macaque somatosensory area 2 spiking activity during reaching with perturbations
