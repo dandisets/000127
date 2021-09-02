@@ -2,14 +2,20 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000127
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
-about: []
-access: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0013533
+  name: Somatosensory area 2
+access:
+- contactPoint:
+    schemaKey: ContactPoint
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Chowdhury, Raeed (2021) Macaque somatosensory area 2 spiking activity during
-  reaching with perturbations (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000127/draft
+citation: Chowdhury, Raeed; Miller, Lee (2021) Macaque somatosensory area 2 spiking
+  activity during reaching with perturbations (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000127/draft
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -17,12 +23,27 @@ contributor:
   name: Pei, Felix
   roleName:
   - dcite:ContactPerson
+  - dcite:Maintainer
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/01an3r305
+    name: University of Pittsburgh
+    schemaKey: Affiliation
+  identifier: 0000-0002-5934-919X
   includeInCitation: true
   name: Chowdhury, Raeed
   roleName:
   - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  identifier: 0000-0001-8675-7140
+  includeInCitation: true
+  name: Miller, Lee
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2021-08-15T01:09:15.272889+00:00'
 description: This dataset contains sorted unit spiking times and behavioral data from
@@ -36,14 +57,20 @@ description: This dataset contains sorted unit spiking times and behavioral data
 ethicsApproval: []
 id: DANDI:000127/draft
 identifier: DANDI:000127
-keywords: []
+keywords:
+- Neural Latents Benchmark
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000127/versions/draft/assets/
 name: Macaque somatosensory area 2 spiking activity during reaching with perturbations
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 10.7554/eLife.48198
+  name: Area 2 of primary somatosensory cortex encodes kinematics of the whole arm
+  relation: dcite:IsDescribedBy
+  repository: eLife
+  url: https://doi.org/10.7554/eLife.48198
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.5.1
