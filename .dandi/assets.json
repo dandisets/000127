@@ -37,6 +37,8 @@
 ],
 "dateModified":
 "2021-09-02T01:05:15.374228-04:00",
+"datePublished":
+"2022-01-13T03:59:49.914664+00:00",
 "digest":
 {
 "dandi:dandi-etag":
@@ -74,6 +76,34 @@
 ],
 "path":
 "sub-Han/sub-Han_desc-test_ecephys.nwb",
+"publishedBy":
+{
+"endDate":
+"2022-01-13T03:59:49.914664+00:00",
+"id":
+"urn:uuid:a5df9ca5-b48c-4ec0-bd92-157070faa99f",
+"name":
+"DANDI publish",
+"schemaKey":
+"PublishActivity",
+"startDate":
+"2022-01-13T03:59:49.914664+00:00",
+"wasAssociatedWith":
+[
+{
+"id":
+"urn:uuid:d6d2f6c9-2b01-4bca-84c7-723e62435c38",
+"identifier":
+"RRID:SCR_017571",
+"name":
+"DANDI API",
+"schemaKey":
+"Software",
+"version":
+"0.1.0"
+}
+]
+},
 "repository":
 "https://dandiarchive.org/",
 "schemaKey":
@@ -214,6 +244,8 @@
 ],
 "dateModified":
 "2021-09-02T01:05:39.877108-04:00",
+"datePublished":
+"2022-01-13T03:59:49.914739+00:00",
 "digest":
 {
 "dandi:dandi-etag":
@@ -263,6 +295,34 @@
 ],
 "path":
 "sub-Han/sub-Han_desc-train_behavior+ecephys.nwb",
+"publishedBy":
+{
+"endDate":
+"2022-01-13T03:59:49.914739+00:00",
+"id":
+"urn:uuid:6422847d-147d-4258-a4df-0baf51a00880",
+"name":
+"DANDI publish",
+"schemaKey":
+"PublishActivity",
+"startDate":
+"2022-01-13T03:59:49.914739+00:00",
+"wasAssociatedWith":
+[
+{
+"id":
+"urn:uuid:9da00e9e-efee-4b49-a478-cc96d6ff1c5e",
+"identifier":
+"RRID:SCR_017571",
+"name":
+"DANDI API",
+"schemaKey":
+"Software",
+"version":
+"0.1.0"
+}
+]
+},
 "repository":
 "https://dandiarchive.org/",
 "schemaKey":

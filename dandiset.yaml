@@ -43,7 +43,7 @@ assetsSummary:
   - Units
   - SpatialSeries
   - ProcessingModule
-citation: 'Chowdhury, Raeed; Miller, Lee (2021) Area2_Bump: macaque somatosensory
+citation: 'Chowdhury, Raeed; Miller, Lee (2022) Area2_Bump: macaque somatosensory
   area 2 spiking activity during reaching with perturbations (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000127/draft'
 contributor:
@@ -76,14 +76,15 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2021-08-15T01:09:15.272889+00:00'
-description: This dataset contains sorted unit spiking times and behavioral data from
-  a macaque performing a reaching task with perturbations. In the experimental task,
-  the subject performed delayed center-out reaches using a manipulandum to control
+description: 'This dataset contains sorted unit spiking times and behavioral data
+  from a macaque performing a reaching task with perturbations. In the experimental
+  task, the subject performed delayed center-out reaches using a manipulandum to control
   a cursor. On a portion of the trials, the manipulandum applied a bump during the
   center hold prior to the reach. Neural activity was recorded from an electrode array
   implanted in somatosensory area 2. Hand position, cursor position, force applied
   to the manipulandum, length and velocity of various arm muscles, and angle and velocity
-  of various arm joints were all recorded during the experiment.
+  of various arm joints were all recorded during the experiment. Provided as part
+  of the Neural Latents Benchmark: https://neurallatents.github.io.'
 ethicsApproval: []
 id: DANDI:000127/draft
 identifier: DANDI:000127
